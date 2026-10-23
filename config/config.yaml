@@ -1,0 +1,52 @@
+holdings:
+- code: 003029
+  name: 吉大正元
+  cost: 23.238
+  shares: 200.0
+  buy_date: null
+- code: 002184
+  name: 海得控制
+  cost: 10.255
+  shares: 200.0
+  buy_date: null
+- code: 000823
+  name: 超声电子
+  cost: 25.18
+  shares: 200.0
+  buy_date: null
+- code: '002376'
+  name: 新北洋
+  cost: 7.32
+  shares: 100.0
+  buy_date: null
+- code: '002242'
+  name: 九阳股份
+  cost: 20.721
+  shares: 200.0
+  buy_date: null
+push:
+  channel: wxpusher
+  fallback: local
+database:
+  host: localhost
+  port: 3306
+  user: root
+  password: root
+  name: instockdb
+strategy:
+  min_win_rate_s: 0.65
+  paper_weeks: 2
+portfolio:
+  total_assets: 25083.81
+  cash_balance: 7279.32
+  cash_balance_estimated: false
+  broker_snapshot:
+    total_assets: 22962.44
+    total_market_value: 13632.0
+    total_profit: -1110.73
+    today_profit: -567.0
+    today_profit_pct: -2.41
+    available_funds: 7279.32
+    withdrawable_funds: 7279.32
+    captured_at: '2026-10-23T11:11:04+08:00'
+    screenshot_time: '11:09'

@@ -1,0 +1,14 @@
+# 密钥与本地数据,永不入库
+config/secrets.yaml
+data/
+reports/*.log
+instock/
+*.pyc
+__pycache__/
+.venv/
+
+# 2026-10-23 提交 GitHub 前补充
+.DS_Store
+.codeflicker/
+reports/.locks/
+reports/backtest_m5_signals.csv
